@@ -9,4 +9,5 @@ class DogsController < ApplicationController
     dog.save
     render json: dog
   end
+  
 end
