@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_06_27_162737) do
     t.string "breed"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "user_id"
+    t.integer "user_id" 
   end
 
   create_table "users", force: :cascade do |t|
